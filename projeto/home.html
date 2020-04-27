@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flavia</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <header>
+    <header class="container">
         <h1><img src="image/logo.png" alt="Logo Flavia"></h1>
 
         <p class="sacola">Nenhum item na sacola de compras</p>
@@ -24,12 +25,61 @@
         
         <!--Conteúdo do cabeçalho-->
     </header>
-    <div>
+    <div class="container destaque">
+        <section class="busca">
+            <h2>Busca</h2>
+            <form>
+                <input type="search">
+                <button>Buscar</button>
+            </form>
+        </section>
+
+        <section class="menu-departamentos">
+            <h2>Departamentos</h2>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Quarto</a></li>
+                    <li><a href="#">Cozinha</a></li>
+                    <li><a href="#">Banheiro</a></li>
+                    <li><a href="#">Sala</a></li>
+                    <li><a href="#">Jardins e Varanda</a></li>
+                    <li><a href="#">Área Externa</a></li>
+                    <li><a href="#">Outros Ambientes</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+
+        <section class="banner-destaque">
+            <figure>
+                <img src="image/banner.jpg" alt="Open">
+            </figure>
+        </section>
 
         <!--Conteúdo principal-->
     </div>
-    <div>
+    <div id="container paineis">
+        <section>
+        <h2>Novidades</h2>
+            <ol>
+                <li><a href="">
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
 
+                </a></li>
+
+
+
+
+            </ol>
+
+
+
+
+        </section>
         <!--Paineis com destaque-->
     </div>
     <footer>
